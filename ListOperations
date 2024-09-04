@@ -1,0 +1,18 @@
+def addToList(val, list=[]):
+    list.append(val)
+    return list
+list1 = addToList(1)
+list2 = addToList(123,[])
+list3 = addToList('a')
+
+#Output
+print ("list1 = %s" % list1)
+print ("list2 = %s" % list2)
+print ("list3 = %s" % list3)
+
+"""
+list1 = [1, 'a']
+list2 = [123]
+list3 = [1, 'a']
+"""
+
